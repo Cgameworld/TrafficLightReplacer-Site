@@ -2,9 +2,8 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
+  background-color: #2c3333;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -27,7 +26,8 @@
 }
 
 .site-nav {
-  float: right;
+  display:flex;
+  justify-content: center;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
