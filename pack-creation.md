@@ -27,7 +27,12 @@ For packs that have traffic lights for different road sizes/ have several varati
 
 # XML Format
 
-Find templates [here](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/Templates) or export them using the mod's Asset Creator Tool
+Get the XML templates [here](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/Templates) or export them using the mod's Asset Creator Tool
+
+If you are on Windows, [Notepad++](https://notepad-plus-plus.org/downloads/) with the XMLTools plugin is recommended to edit these files, since it includes features such as text highlighting, syntax checking and pretty printing.  
+
+Example XML Template:\
+<img src="/assets/images/multisize-template-example.png" alt="Example XML Template"/>
 
 Each element is described below
 
@@ -46,9 +51,9 @@ Defines the type of prop to replace
 
 For **OneSize** files, types can be set to ```Main``` , ```Mirror``` , ```Ped Signal```, or ```Signal Pole``` with only one prop per type.
 
-For **Multisize** files types can be set to ```Small```, ```Medium```, ```Large``` or ```Signal Pole```.\
+For **Multisize** files types can be set to ```Small```, ```Medium```, ```Large``` or ```Signal Pole```.
 
-For multisize configurations, types small, medium and large can be assigned to multiple props, with each Asset entry showing up as a new option in the mod's customization panel. Signal Pole however can only be assigned to one prop. All the types (small, medium, large, signal pole) have to have at least one asset assigned otherwise the pack does not work
+For multisize configurations, types small, medium and large can be assigned to multiple props, while signal pole can only be assigned to one prop. All the types (small, medium, large, signal pole) have to have at least one asset assigned, otherwise the pack does not work
 
 
 ### Name
@@ -60,10 +65,9 @@ Tooltip shown in the customization dropdown (**MultiSize only**)
 ### Transform
 (**optional**)\
 \
-Set the default transform setings for the pack\
-
-Transform offset values when loaded, location relative to the default sidewalk location of the traffic light
-
+Default transform setings for the pack\
+\
+(move this to main section?)\
 **x** - distance away from the curb, x direction | bounds [-9,9]\
 \
 **y** - height above the ground | bounds [-9,9]\
@@ -74,6 +78,20 @@ Transform offset values when loaded, location relative to the default sidewalk l
 \
 **Scale** - bounds [0,200]
 
+### DropdownSelectionIndex
+(**optional - MultiSize only**)\
+\
+Default variation selected for each size in the customization menu. Use this if you want something other than the first prop for a size category selected when loading the pack\
+\
+**SmallRoads** - index for Small Roads dropdown\
+**MediumRoads** - index for Medium Roads dropdown\
+**LargeRoads** - index for Large Roads dropdown
+
+index values start at 0\
+\
+Example:\
+![dropdown selection index example](/assets/images/DropdownSelectionIndexExample.png)\
+To have the second traffic light in this list to be selected on default, change the MediumRoads element value to ```1```
 
 # Loading
 
