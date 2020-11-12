@@ -25,7 +25,7 @@ For traffic light packs that replace vanilla traffic light props one to one. Thi
 ## MultiSize
 For packs that have traffic lights for different road sizes/ have several varations per road size. This requires more prop models than the onesize format, but it can take full advantage of the mod's features
 
-# XML Format
+# XML Template
 
 Get the XML templates [here](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/Templates) or export them using the mod's Asset Creator Tool
 
@@ -34,7 +34,7 @@ If you are on Windows, [Notepad++](https://notepad-plus-plus.org/downloads/) wit
 Example XML Template:\
 <img src="/assets/images/multisize-template-example.png" alt="Example XML Template"/>
 
-Each element is described below
+# XML Elements
 
 ### PackName
 The name of the pack shown in game
