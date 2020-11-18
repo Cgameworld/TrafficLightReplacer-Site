@@ -23,16 +23,18 @@ This mod can read two different kinds of XML configuration files
 For traffic light packs that replace vanilla traffic light props one to one. This is best for legacy/limited prop packs
 
 ## MultiSize
-For packs that have traffic lights for different road sizes/ have several varations per road size. This requires more prop models than the onesize format, but it can take full advantage of the mod's features
+For packs that have traffic lights for different road sizes/ have several variations per road size. This requires more prop models than the onesize format, but it can take full advantage of the mod's features
 
 # XML Template
 
-Get the XML templates [here](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/Templates) or export them using the mod's Asset Creator Tool
+As a starting point to make a new configuration, use these blank XML templates [here](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/Templates) or export them using the mod's Asset Creator Tool
 
 If you are on Windows, [Notepad++](https://notepad-plus-plus.org/downloads/) with the XMLTools plugin is recommended to edit these files, since it includes features such as text highlighting, syntax checking and pretty printing.  
 
-Example XML Template:\
+Example Blank XML Template:\
 <img src="/assets/images/multisize-template-example.png" alt="Example XML Template"/>
+
+For examples of fully working xml files, look at the mod's [internal XML presets](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/DefaultXMLS)
 
 # XML Elements
 
@@ -40,10 +42,10 @@ Example XML Template:\
 The name of the pack shown in game
 
 ### OneSize
-Type of XML file, ```true``` means it is a OneSize configuration, ```false``` means it is a MultiSize configuration
+[Type](#xml-types) of XML file, ```true``` means it is a OneSize configuration, ```false``` means it is a MultiSize configuration
 
 ### Prefab
-Prefab name of the prop, use the update/copy buttons in the Asset Creator tool to grab this
+Prefab name of the prop, use the update/copy buttons in the Asset Creator Tool to grab
 
 
 ### Type
@@ -51,7 +53,7 @@ Defines the type of prop to replace
 
 For **OneSize** files, types can be set to ```Main``` , ```Mirror``` , ```Ped Signal```, or ```Signal Pole``` with only one prop per type.
 
-For **Multisize** files types can be set to ```Small```, ```Medium```, ```Large``` or ```Signal Pole```.
+For **MultiSize** files types can be set to ```Small```, ```Medium```, ```Large``` or ```Signal Pole```.
 
 For multisize configurations, types small, medium and large can be assigned to multiple props, while signal pole can only be assigned to one prop. All the types (small, medium, large, signal pole) have to have at least one asset assigned, otherwise the pack does not work
 
@@ -65,7 +67,7 @@ Tooltip shown in the customization dropdown (**MultiSize only**)
 ### Transform
 (**optional**)\
 \
-Default transform setings for the pack\
+Default transform settings for the pack\
 \
 (move this to main section?)\
 **x** - distance away from the curb, x direction | bounds [-9,9]\
@@ -79,7 +81,7 @@ Default transform setings for the pack\
 **Scale** - bounds [0,200]
 
 ### DropdownSelectionIndex
-(**optional - MultiSize only**)\
+(**optional, MultiSize only**)\
 \
 Default variation selected for each size in the customization menu. Use this if you want something other than the first prop for a size category selected when loading the pack\
 \
