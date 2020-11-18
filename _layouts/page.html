@@ -5,6 +5,23 @@ layout: default
 
   <div>
     {{ content }}
+
+    {% if page.category == "documentation" %}
+
+    <h1>Documenation </h1>
+    add previous/next arrows!
+{% for page1 in site.pages %}
+{% if page1.category == "documentation" %}
+<div class="item">
+<h3><a href="{{ page.url }}">
+{{ page1.title }}
+</a></h3>
+<p>{{page1.description}}</p>
+</div>
+{% endif %}
+{% endfor %}
+
+{% endif %}
   </div>
 
 </article>

@@ -4,7 +4,7 @@ title: Pack Creation
 permalink: /pack-creation
 ref: pack-creation
 category: documentation
-order: 0
+order: 4
 ---
 Tutorial about how to make packs!
 rewrite all of this!

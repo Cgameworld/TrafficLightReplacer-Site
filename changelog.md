@@ -3,7 +3,8 @@ layout: page
 title: Changelog
 permalink: /changelog
 ref: changelog
-order: 3
+category: documentation
+order: 5
 ---
 
 
