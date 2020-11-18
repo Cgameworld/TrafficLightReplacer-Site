@@ -11,27 +11,20 @@ Beta version of my upcoming Traffic Light Replacer mod
 
 This mod allows for easy customization of your city's traffic lights. 
 
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
 
 # Installation
 
-Steam Workshop method:
-1. [Subscribe](tba) to the mod on the steam workshop
-1. Subscribe to prop pack(s)
+1. [Subscribe](tba) to the mod on the Steam Workshop
+1. Subscribe to supported pack(s)
 1. Enable mod in Content Manager> Mods
 
-(maybe dont use this?)
-
-Manual method (use for pre-releases/origin):
-1. Go to the releases page in the [github repo](https://github.com/Cgameworld/TrafficLightReplacer/releases)
-1. Download the dll and related files
-1. Go to the Cities: Skylines local data folder, on windows ```C:\\yourusername\AppData\Local\Colossal Order\Cities_Skylines```
-1. In the data folder go to ```Addons\Mods```
-1. Make a new folder called ```TrafficLightReplacer```
-1. Copy downloaded file(s) to folder
-1. Enable mod in Content Manager> Mods
-
-# Main Window
-To open, press the traffic light edit button icon near the camera button or use F3.
+# Supported Packs
 
 No traffic lights are included with this mod; instead subscribe to one or more of the prop packs/mods below
 
@@ -117,3 +110,15 @@ Testing wanted for:
 CSUR
 Large Cities
 Creator Tool
+
+
+(maybe dont use this?)
+
+Manual method (use for pre-releases/origin):
+1. Go to the releases page in the [github repo](https://github.com/Cgameworld/TrafficLightReplacer/releases)
+1. Download the dll and related files
+1. Go to the Cities: Skylines local data folder, on windows ```C:\\yourusername\AppData\Local\Colossal Order\Cities_Skylines```
+1. In the data folder go to ```Addons\Mods```
+1. Make a new folder called ```TrafficLightReplacer```
+1. Copy downloaded file(s) to folder
+1. Enable mod in Content Manager> Mods

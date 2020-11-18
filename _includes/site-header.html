@@ -1,11 +1,10 @@
 <header class="site-header" role="banner">
 
-
   <section class="page-header">
     <p class="project-name"><img class="mainicon" src="/assets/tlricon.png"> Traffic Light Replacer</p>
     <p class="project-tagline">A Cities: Skylines mod to easily customize your city's traffic lights</p>
   </section>
-  
+
   <div class="wrapper">
     {% assign default_refs = site.pages | sort:"order" | map: "ref" %}
     {% assign page_refs = site.header_page_refs | default: default_refs %}

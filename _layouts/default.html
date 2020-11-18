@@ -62,6 +62,9 @@
         
         {% if page.layout == 'home' %}
         {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
+
+        {% include site-landing.html %}
+
         {% endif %}
         {% if page.layout == 'page' %}
         {% assign page-tagline = page.tagline | escape %}

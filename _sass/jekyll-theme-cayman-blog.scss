@@ -469,3 +469,13 @@ a {
   } // social-icons
 
 }
+
+
+.youtube-embed{
+  width:70%;
+
+  @include small {
+    width:100%;
+  }
+  
+}
