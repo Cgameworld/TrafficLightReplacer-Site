@@ -18,8 +18,8 @@ layout: home
 </div>
 
 <br>
-<a href="https://github.com/Cgameworld/TrafficLightReplacer" class="btn">Download on Steam</a>
-<a href="https://github.com/Cgameworld/TrafficLightReplacer" class="btn">Documentation</a>
+<a href="" class="btn">Download on Steam</a>
+<a href="/documentation" class="btn">Documentation</a>
 
 
 <h1> Features </h1>

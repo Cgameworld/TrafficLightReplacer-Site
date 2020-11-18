@@ -5,6 +5,7 @@
     <p class="project-tagline">A Cities: Skylines mod to easily customize your city's traffic lights</p>
   </section>
 
+
   <div class="wrapper">
     {% assign default_refs = site.pages | sort:"order" | map: "ref" %}
     {% assign page_refs = site.header_page_refs | default: default_refs %}
@@ -31,10 +32,12 @@
             <div class="dropdown-content">
           {% for ref in page_refs %}
             {% assign my_page = site.pages | where: "ref", ref | first %}
+            {% if my_page.category == "documentation" %}
             {% if my_page.title %}
               {% if my_page.title contains "404" or my_page.title contains "Contribute"" %} 
               {%else %}    
               <a style="line-height: 1.5;" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
+              {% endif %}
               {% endif %}
             {% endif %}
           {% endfor %}
