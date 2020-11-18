@@ -40,7 +40,24 @@ Places traffic lights on the opposing side of roads instead the default where tr
 
 # Transform Settings 
 
+Adjust the position of all traffic lights, write better
 
+global values, affects all traffic light props in pack
+
+Hold the alt key to snap to 0.5 unit/5 degree/5 percent increments
+
+
+## Fields
+
+**x** - distance away from the curb, x direction | bounds [-9,9]\
+\
+**y** - height above the ground | bounds [-9,9]\
+\
+**z** - distance away from the curb, z direction | bounds [-9,9]\
+\
+**Angle** - angle offset | bounds [-180,180]\
+\
+**Scale** - traffic light prop scale | bounds [0,200]
 
 
 

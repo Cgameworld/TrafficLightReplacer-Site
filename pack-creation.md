@@ -68,17 +68,6 @@ Tooltip shown in the customization dropdown (**MultiSize only**)
 (**optional**)\
 \
 Default transform settings for the pack\
-\
-(move this to main section?)\
-**x** - distance away from the curb, x direction | bounds [-9,9]\
-\
-**y** - height above the ground | bounds [-9,9]\
-\
-**z** - distance away from the curb, z direction | bounds [-9,9]\
-\
-**Angle** - bounds [-180,180]\
-\
-**Scale** - bounds [0,200]
 
 ### DropdownSelectionIndex
 (**optional, MultiSize only**)\
