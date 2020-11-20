@@ -4,7 +4,7 @@ title: Changelog
 permalink: /changelog
 ref: changelog
 category: documentation
-order: 5
+order: 6
 ---
 
 

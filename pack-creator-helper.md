@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Pack Creator Tool
-permalink: /creator-tool
-ref: creator-tool
+title: Pack Creator Helper
+permalink: /pack-creator-helper
+ref: pack-creator-helper
 category: documentation
-order: 4
+order: 5
 ---
 
 ![Pack Creator Helper](/assets/images/pack-creator-helper.png)
