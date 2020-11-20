@@ -51,11 +51,13 @@ Prefab name of the prop, use the update/copy buttons in the Asset Creator Tool t
 ### Type
 Defines the type of prop to replace
 
-For **OneSize** files, types can be set to ```Main``` , ```Mirror``` , ```Ped Signal```, or ```Signal Pole``` with only one prop per type.
+For **OneSize** files, types can be set to ```Main``` , ```Mirror``` , ```Ped Signal```, ```Signal Pole```, or ```Signal Pole Mirror``` with only one prop per type.
+
+All the types (small, medium, large, signal pole), except Signal Pole Mirror  need to be assigned, otherwise the pack will not work. In the case of Signal Pole Mirror if left blank the mod will use the non-mirrored signal pole prop
 
 For **MultiSize** files types can be set to ```Small```, ```Medium```, ```Large``` or ```Signal Pole```.
 
-For multisize configurations, types small, medium and large can be assigned to multiple props, while signal pole can only be assigned to one prop. All the types (small, medium, large, signal pole) have to have at least one asset assigned, otherwise the pack does not work
+Types small, medium and large can be assigned to multiple props, while signal pole can only be assigned to one prop. All the types (small, medium, large, signal pole) have to have at least one asset assigned, otherwise the pack will not work
 
 
 ### Name
