@@ -11,13 +11,6 @@ Beta version of my upcoming Traffic Light Replacer mod
 
 This mod allows for easy customization of your city's traffic lights. 
 
-# Table of Contents
-{: .no_toc}
-
-* TOC
-{:toc}
-
-
 # Installation
 
 1. [Subscribe](tba) to the mod on the Steam Workshop
@@ -74,3 +67,8 @@ document.getElementById("data-display").innerHTML += `<div class="pure-u-1-6"><p
 
 Individual traffic light mods (ie. American Traffic Lights) need to be left disabled, otherwise conflicts will happen. The mod automatically disables individual traffic light mods on game startup since it only uses the bundled props.
 
+<br>
+<div class="bottom-navigation">
+  <a class="btn" style="float:left" href="{{page.previous.url}}">&laquo; wef{{page.previous.title}}</a>
+    <a class="btn" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+</div>

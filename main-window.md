@@ -59,6 +59,3 @@ Hold the alt key to snap to 0.5 unit/5 degree/5 percent increments
 \
 **Scale** - traffic light prop scale | bounds [0,200]
 
-
-
-
