@@ -33,6 +33,8 @@ Example Blank XML Template:\
 
 For examples of fully working xml files, look at the mod's [internal XML presets](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/DefaultXMLS)
 
+Read below for the explaination of the elements
+
 # XML Elements
 
 ### PackName

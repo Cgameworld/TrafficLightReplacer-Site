@@ -5,15 +5,13 @@ permalink: /documentation
 ref: documentation
 order: 0
 ---
-
-Hello World 
-{% for page in site.pages %}
-{% if page.category == "documentation" %}
+{% for post in site.posts reversed %}
+{% if post.category == "documentation" %}
 <div class="item">
-<h3><a href="{{ page.url }}">
-{{ page.title }}
+<h3><a href="{{ post.url }}">
+{{ post.title }}
 </a></h3>
-<p>{{page.description}}</p>
+<p>{{post.description}}</p>
 </div>
 {% endif %}
 {% endfor %}

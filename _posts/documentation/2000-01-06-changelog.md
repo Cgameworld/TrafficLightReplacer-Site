@@ -4,11 +4,7 @@ title: Changelog
 category: documentation
 ---
 
-Commit by commit changelog: [GitHub master branch](https://github.com/Cgameworld/TrafficLightReplacer/commits/master)
-<br><br>
-
-Changelog for all of the public releases of the mod:
-
+Public releases changelog:
   <ul class="post-list">
     {% for post in site.posts %}
     {% if post.category == "changelog" %}
@@ -27,3 +23,7 @@ Changelog for all of the public releases of the mod:
       {% endif %}
     {% endfor %}
   </ul>
+
+<br>
+  Commit by commit changelog: [GitHub master branch](https://github.com/Cgameworld/TrafficLightReplacer/commits/master)
+<br><br>
