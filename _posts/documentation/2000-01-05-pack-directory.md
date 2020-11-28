@@ -1,25 +1,8 @@
 ---
-layout: page
-title: Getting Started
-permalink: /getting-started
-ref: getting-started
+layout: post
+title: Pack Directory
 category: documentation
-order: 0
 ---
-
-Beta version of my upcoming Traffic Light Replacer mod
-
-This mod allows for easy customization of your city's traffic lights. 
-
-# Installation
-
-1. [Subscribe](tba) to the mod on the Steam Workshop
-1. Subscribe to supported pack(s)
-1. Enable mod in Content Manager> Mods
-
-# Supported Packs
-
-No traffic lights are included with this mod; instead subscribe to one or more of the prop packs/mods below
 
 <script>
 var sheetUrl = 'https://spreadsheets.google.com/feeds/cells/1aBT0b0r-pOzU6AC3yI1C5exTcN2vtpTqJTNxTWYpYuc/1/public/full?alt=json';
@@ -64,11 +47,4 @@ document.getElementById("data-display").innerHTML += `<div class="pure-u-1-6"><p
   <div class="pure-u-1-6"><p>Multisize?</p></div>
 </div>
 
-
-Individual traffic light mods (ie. American Traffic Lights) need to be left disabled, otherwise conflicts will happen. The mod automatically disables individual traffic light mods on game startup since it only uses the bundled props.
-
-<br>
-<div class="bottom-navigation">
-  <a class="btn" style="float:left" href="{{page.previous.url}}">&laquo; wef{{page.previous.title}}</a>
-    <a class="btn" style="float:right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-</div>
+<p> Recently made a compatitble pack? Fill out this google form to add</p>

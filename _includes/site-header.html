@@ -30,15 +30,9 @@
           <div class="dropdown">
             <a class="page-link menu-bar-select" href="/documentation">Documentation</a>
             <div class="dropdown-content">
-          {% for ref in page_refs %}
-            {% assign my_page = site.pages | where: "ref", ref | first %}
-            {% if my_page.category == "documentation" %}
-            {% if my_page.title %}
-              {% if my_page.title contains "404" or my_page.title contains "Contribute"" %} 
-              {%else %}    
-              <a style="line-height: 1.5;" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
-              {% endif %}
-              {% endif %}
+            {% for post in site.posts reversed%}
+            {% if post.category == "documentation" %}
+              <a style="line-height: 1.5;" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>

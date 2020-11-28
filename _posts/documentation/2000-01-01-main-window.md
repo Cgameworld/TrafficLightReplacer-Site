@@ -1,10 +1,7 @@
 ---
-layout: page
+layout: post
 title: Main Window
-permalink: /main-window
-ref: main-window
 category: documentation
-order: 1
 ---
 
 tba
@@ -58,4 +55,3 @@ Hold the alt key to snap to 0.5 unit/5 degree/5 percent increments
 **Angle** - angle offset | bounds [-180,180]\
 \
 **Scale** - traffic light prop scale | bounds [0,200]
-

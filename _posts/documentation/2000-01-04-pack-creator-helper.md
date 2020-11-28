@@ -1,10 +1,7 @@
 ---
-layout: page
+layout: post
 title: Pack Creator Helper
-permalink: /pack-creator-helper
-ref: pack-creator-helper
 category: documentation
-order: 5
 ---
 
 ![Pack Creator Helper](/assets/images/pack-creator-helper.png)
