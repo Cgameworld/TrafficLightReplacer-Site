@@ -15,9 +15,9 @@ tba
 
 # Opening
 
-Press the traffic light icon, near the bottom corner of the screen, also the f3 key works
+Click on the traffic light edit icon to open, near the bottom corner of the screen
 
-(border is configurable in settings) (right on icon to move it)
+<img src="/assets/images/tlricon-location.png" width="555">
 
 
 # Pack Dropdown
