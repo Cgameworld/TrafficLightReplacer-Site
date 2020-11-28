@@ -12,7 +12,7 @@ This mod allows for easy customization of your city's traffic lights.
 
 1. [Subscribe](tba) to the mod on the Steam Workshop
 1. Subscribe to supported pack(s)
-1. Enable mod in Content Manager> Mods
+1. Enable the mod in Content Manager> Mods
 
 # Supported Packs
 

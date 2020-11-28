@@ -1,22 +1,28 @@
 ---
 layout: page
-title: Contribute
-permalink: /contribute
-ref: contribute
+title: Support
+permalink: /Support
+ref: Support
 order: 5
 ---
-Found an issue - document it here perferably as a github issue:
 
-Github:
+There are many ways to contribute to this project if you have interest
 
-Donate:
+# Bug Reports
 
-Pull requests to the mod and/or documentation are accepted 
+If you have found a bug, document it preferably as a [issue](https://github.com/Cgameworld/TrafficLightReplacer/issues) on GitHub, with the steps leading up to issue and with the output_log.txt file of your session. More information on how to get the output_log.txt file here
 
-details:
+# Translation
+This mod has localization support! Help translate it into your language with this [google sheet](https://docs.google.com/spreadsheets/d/1kWPPgooa0eKep2ELPwoYKz4qJjLCdzmWs8BDeXo5aL4/edit#gid=0)
+
+# Donate
+
+If you like this mod, and want to support me, donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=JNTNBLJN9ZZZ4&currency_code=USD&source=url)
 
 
+# Pull Requests
 
+Pull requests to the mod/to this documentation are welcome, (check in issues whats being worked on already)
 
-
-</div>
+[Mod GitHub Repo](https://github.com/Cgameworld/TrafficLightReplacer)\
+[Documentation Website GitHub Repo](https://github.com/Cgameworld/TrafficLightReplacer-Site)
