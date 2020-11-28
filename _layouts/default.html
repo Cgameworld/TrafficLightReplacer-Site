@@ -81,6 +81,7 @@
             <!-- Post tagline -->
             {% if page.layout == 'post' %}
             <h2 class="project-date">
+                {% if post.category == "changelog" %}
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
                     {{ page.date | date: date_format }}
@@ -88,6 +89,7 @@
                 {% assign page_author = page.author | default: site.author | default: nil | escape %}
                 {% if page_author %}
                 • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page_author }}</span></span>
+                {% endif %}
                 {% endif %}
             </h2>
             {% endif %}

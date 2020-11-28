@@ -1,17 +1,17 @@
 ---
-layout: page
+layout: post
 title: Changelog
-permalink: /changelog
-ref: changelog
 category: documentation
-order: 6
 ---
 
+Commit by commit changelog: [GitHub master branch](https://github.com/Cgameworld/TrafficLightReplacer/commits/master)
+<br><br>
 
-  <div>&nbsp;</div>
+Changelog for all of the public releases of the mod:
 
   <ul class="post-list">
     {% for post in site.posts %}
+    {% if post.category == "changelog" %}
       <li>
 
         {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
@@ -24,5 +24,6 @@ order: 6
         {{ post.excerpt | markdownify | truncatewords: 30 }}
 
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
