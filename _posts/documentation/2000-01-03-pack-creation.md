@@ -12,6 +12,26 @@ rewrite all of this!
 * TOC
 {:toc}
 
+# Props
+
+## General
+Before creating a traffic light pack, traffic light props are needed. For general prop asset creation information refer to this [article](https://cslmodding.info/asset/prop/) on cslmodding.info
+
+If you already have working traffic light props skip to [here](/documentation/pack-creation/#xml-types) ??
+## Traffic Light Prop Specifics
+
+Traffic lights props use a special shader, the Traffic Light Shader. 
+
+Because of this it is best to use the vanilla traffic light template since it already has that configured
+
+unlike regular props, Traffic lights require _i maps???? explain when ive made one lol
+
+
+## Preparation
+Before making a XML file, it is suggested to publish your traffic light props as an unlisted listing
+
+This is because the mod refers to the Prefab name of the prop, which differs whether the prop is published or not.
+
 # XML Types
 
 This mod can read two different kinds of XML configuration files
@@ -85,7 +105,46 @@ Example:\
 ![dropdown selection index example](/assets/images/DropdownSelectionIndexExample.png)\
 To have the second traffic light in this list to be selected on default, change the MediumRoads element value to ```1```
 
-# Loading
+# Pack Creation Helper
+
+In the mod, there's a toolbox window that helps with making an XML called the Pack Creator Helper. To show it go into the general mod settings, and enable "Show Pack Creator Helper"
+
+![helper](/assets/images/modsettings-pack.png)
+
+Once enabled you should see a window that looks like this:
+
+![pack window](../../assets/images/pack-creator-helper.png)
+
+## Generate Template Pack XMLS
+
+This button exports two XML files, one for each configuration [type](/documentation/pack-creation/#xml-types)
+
+## Update
+This copies the selected prop's name into the name box. Use the [Find It! 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2133885971) mod search and to select a prop
+
+## Copy
+
+Copies the prop name to the clipboard
+
+## Folder
+
+Opens the TLRLocal folder, place XML files you want to test here
+
+## Load TLRLocal Folder
+
+Toggles wether to load XML files in the TLRLocal folder to the Pack dropdown
+
+## Refresh Packs
+
+Refreshes the main Pack Dropdown
+
+## Load Traffic Pack
+
+First press the folder icon and place an XML config in there
+
+To load traffic lights into the mod check "Load TLR Local Folder" in the Pack Creator Helper. Then click "Refresh Packs"
+
+
 
 To load a custom prop pack, place a TLRConfig.xml file in the workshop asset folder when publishing. 
 

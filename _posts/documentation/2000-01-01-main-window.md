@@ -4,7 +4,7 @@ title: Main Window
 category: documentation
 ---
 
-tba
+![mainwindow](/assets/images/Cities_HKHGiqZjNV.png)
 
 # Table of Contents
 {: .no_toc}
@@ -24,7 +24,7 @@ Click on the traffic light edit icon to open, near the bottom corner of the scre
 
 Main dropdown of the mod, this selects the traffic light pack to replace each light with.
 
-when changing packs, all custom adjustments (transform settings, road size selections are cleared)
+When changing packs, all custom adjustments (transform settings and road size selections) are cleared
 
 
 # Place on Opposite Side of Stop Line
@@ -32,19 +32,30 @@ when changing packs, all custom adjustments (transform settings, road size selec
 Places traffic lights on the opposing side of roads instead the default where traffic lights are at the stop line at the same side of the road. Increases realism for north american traffic light packs
 
 # Customize Lights
+
+Select which roads appear on Small, Medium or Large size roads.
+
 **(only visible with supported MultiSize packs)** 
+
+![customlightpanel](/assets/images/Cities_QMSIlvzEGa.png)
+
+
+Roads size is classified by the total width of the vehicle and parking lanes:
+
+* Small Roads - less than 12m (6m for one-way roads)
+* Medium Roads - less than 30m (15m for one-way roads)
+* Large Roads - larger than 30m (15m for one-way roads)
 
 
 # Transform Settings 
 
-Adjust the position of all traffic lights, write better
+Adjusts the global positioning of all traffic lights at an intersection.
 
-global values, affects all traffic light props in pack
+![transform-panel](/assets/images/Cities_FIxoZdqly0.png)
 
-Hold the alt key to snap to 0.5 unit/5 degree/5 percent increments
+Some packs already have transform settings preconfigured, these sliders allow further tweaking ingame
 
-
-## Fields
+## Options
 
 **x** - distance away from the curb, x direction | bounds [-9,9]\
 \
@@ -55,3 +66,4 @@ Hold the alt key to snap to 0.5 unit/5 degree/5 percent increments
 **Angle** - angle offset | bounds [-180,180]\
 \
 **Scale** - traffic light prop scale | bounds [0,200]
+<br><br>
