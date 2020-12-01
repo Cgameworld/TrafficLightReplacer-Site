@@ -40,8 +40,9 @@ This mod can read two different kinds of XML configuration files
 For traffic light packs that replace vanilla traffic light props one to one. This is best for legacy/limited prop packs
 
 ## MultiSize
-For packs that have traffic lights for different road sizes/ have several variations per road size. This requires more prop models than the onesize format, but it can take full advantage of the mod's features
+For packs that have traffic lights for different road sizes/ have several variations per road size. This requires more prop models than the OneSize format, but it can take full advantage of the mod's features
 
+make table with check boxes?
 # XML Template
 
 As a starting point to make a new configuration, use these blank XML templates [here](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/Templates) or export them using the mod's [Pack Creator Helper](/documentation/pack-creation/#pack-creator-helper)
@@ -72,12 +73,14 @@ Defines the type of prop to replace
 
 For **OneSize** files, types can be set to ```Main``` , ```Mirror``` , ```Ped Signal```, ```Signal Pole```, or ```Signal Pole Mirror``` with only one prop per type.
 
-All the types (small, medium, large, signal pole), except Signal Pole Mirror  need to be assigned, otherwise the pack will not work. In the case of Signal Pole Mirror if left blank the mod will use the non-mirrored signal pole prop
+- All the types (Main, Mirror, Ped Signal, Signal Pole) need to be assigned to a prop, otherwise the pack will not work
+- In the case of Signal Pole Mirror, if left blank the mod will use the non-mirrored signal pole prop
 
-For **MultiSize** files types can be set to ```Small```, ```Medium```, ```Large``` or ```Signal Pole```.
+For **MultiSize** files types can be set to ```Small```, ```Medium```, ```Large```, ```All``` , or ```Signal Pole``` .
 
-Types small, medium and large can be assigned to multiple props, while signal pole can only be assigned to one prop. All the types (small, medium, large, signal pole) have to have at least one asset assigned, otherwise the pack will not work
-
+- Types Small, Medium and Large and All can be assigned to multiple props, while Signal Pole can only be assigned to one prop
+- Type All means that the prop is added to all size categories
+- The XML file is required to have at least one prop assigned to types (Small, Medium and Large, Signal Pole) or (All, Signal Pole), otherwise the pack will not work
 
 ### Name
 Name of the prop shown in the customization dropdown (**MultiSize only**)
@@ -104,6 +107,10 @@ index values start at 0\
 Example:\
 ![dropdown selection index example](/assets/images/DropdownSelectionIndexExample.png)\
 To have the second traffic light in this list to be selected on default, change the MediumRoads element value to ```1```
+
+### ForceDefaultSideSignalPole
+(**optional, MultiSize only**)\
+Forces the signal pole light to be always at the opposite side of the road when the default side is enabled, instead of only when the optional setting in the global option menu settings is enabled (only used in special cases) 
 
 # Pack Creator Helper
 
@@ -138,13 +145,32 @@ Toggles whether to load XML files in the TLRLocal folder to the Pack dropdown
 
 Refreshes the main Pack Dropdown
 
-## Load Traffic Pack
+# Loading a Traffic Pack
 
 First press the folder icon and place an XML config in there
 
 To load traffic lights into the mod check "Load TLR Local Folder" in the Pack Creator Helper. Then click "Refresh Packs"
 
 
+
+
+# Limitations
+
+
+Revise this!!
+- OneSize lights can not take advantage of the mod's "Customize Lights" feature but replace the vanilla lights one to one
+- MultiSize traffic lights define median lights to replace since they are hidden. In this example 
+
+They do not support mirrored traffic lights, they are replaced with a blank prop currently?
+![example-1](/assets/images/twotrafficlightexample.png)
+- in the future multisize lights can support main light median replacement is planned to be added. support may be added to remedy this
+
+
+For pack variations that have main lights in the median like vanilla, use the oneSize mode for now, since that supports its unlike multisize, might add in the future?
+
+Mention that this mod doesn't even work for LHD!!
+
+# Unsorted
 
 To load a custom prop pack, place a TLRConfig.xml file in the workshop asset folder when publishing. 
 

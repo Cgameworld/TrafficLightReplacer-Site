@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Support
-permalink: /Support
-ref: Support
+title: Contribute
+permalink: /contribute
+ref: contribute
 order: 5
 ---
 
@@ -22,7 +22,7 @@ If you like this mod, and want to support me, donate [here](https://www.paypal.c
 
 # Pull Requests
 
-Pull requests to the mod/to this documentation are welcome, (check in issues whats being worked on already)
+Pull requests to the mod/to this documentation are welcome, (check in issues whats being worked on)
 
 [Mod GitHub Repo](https://github.com/Cgameworld/TrafficLightReplacer)\
 [Documentation Website GitHub Repo](https://github.com/Cgameworld/TrafficLightReplacer-Site)
