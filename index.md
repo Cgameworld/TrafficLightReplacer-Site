@@ -22,8 +22,6 @@ layout: home
 <a href="/documentation" class="btn">Documentation</a>
 
 
-<h1> Features </h1>
-
 
 </center>
 
