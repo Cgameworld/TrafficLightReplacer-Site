@@ -3,8 +3,7 @@ layout: post
 title: Pack Creation
 category: documentation
 ---
-Tutorial about how to make packs!
-rewrite all of this!
+Information about how to make packs
 
 # Table of Contents
 {: .no_toc}

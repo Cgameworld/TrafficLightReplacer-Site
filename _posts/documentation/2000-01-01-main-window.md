@@ -53,7 +53,9 @@ Adjusts the global positioning of all traffic lights at an intersection.
 
 ![transform-panel](/assets/images/Cities_FIxoZdqly0.png)
 
-Some packs already have transform settings preconfigured, these sliders allow further tweaking ingame
+Some packs already have transform settings preconfigured, these sliders allow further tweaking ingame.
+
+Hold alt while dragging these sliders to lock the interval per 0.5 units/ 5 degrees / 5 percent
 
 ## Options
 
@@ -66,4 +68,3 @@ Some packs already have transform settings preconfigured, these sliders allow fu
 **Angle** - angle offset | bounds [-180,180]\
 \
 **Scale** - traffic light prop scale | bounds [0,200]
-<br><br>
