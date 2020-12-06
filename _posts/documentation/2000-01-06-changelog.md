@@ -5,24 +5,34 @@ category: documentation
 ---
 
 Public releases changelog:
-  <ul class="post-list">
-    {% for post in site.posts %}
-    {% if post.category == "changelog" %}
-      <li>
 
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+## 0.9.2
+- check if packs are installed on startup
 
-        <h2>
-          <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-        </h2>
+## 0.9.1
 
-        {{ post.excerpt | markdownify | truncatewords: 30 }}
+- Added 6 more built-in prop configurations
+- new setting: show signal pole style lights on default side
 
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+## 0.9
+- T-intersection detection/fixes added
+
+## 0.8.1
+- performance improvement switching packs
+- fix for highway roads (opposite side, multisize packs)
+
+## 0.8
+- Added configurable [default dropdown selections](/documentation/pack-creation/#dropdownselectionindex) in XML file
+- Added red textbox highlight if z value goes below zero
+
+## 0.5.2
+- Fix for github issue #12 (vanilla lights not replacing on highway roads)
+
+## 0.5.1
+- Added transform value loading from XML config file
+
+## 0.5
+- Initial Beta Posted
 
 <br>
   Commit by commit changelog: [GitHub master branch](https://github.com/Cgameworld/TrafficLightReplacer/commits/master)
