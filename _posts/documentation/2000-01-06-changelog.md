@@ -19,7 +19,7 @@ Public releases changelog:
 
 ## 0.8.1
 - performance improvement switching packs
-- fix for highway roads (opposite side, multisize packs)
+- fix for highway roads (opposite side, MultiSize packs)
 
 ## 0.8
 - Added configurable [default dropdown selections](/documentation/pack-creation/#dropdownselectionindex) in XML file

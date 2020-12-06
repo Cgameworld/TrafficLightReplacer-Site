@@ -207,3 +207,13 @@
 padding-bottom: 40px;
 padding-top: 20px;
 }
+
+.icon-button {
+  padding: 0.25em 0.35em;
+  //margin-right: 5px;
+  font-size: 150%;
+  color: white;
+  border-radius: 5px;
+  text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
