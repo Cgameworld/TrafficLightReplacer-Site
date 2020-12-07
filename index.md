@@ -12,20 +12,6 @@ layout: home
 
 Coming Soon!
 <br>
-<!--
-<h1> Trailer </h1>
-
- <br>
-
-<div class="youtube-embed">
-<div class="video-wrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jHuBKf6nfI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-
-
-<br>
-<a href="" class="btn">Download on Steam</a> --->
 <a href="/documentation" class="btn">Documentation</a>
 
 
