@@ -30,7 +30,6 @@ plugins:
 
   
 permalink: /:categories/:title/
-
 markdown: kramdown
 
 # Exclude from processing.

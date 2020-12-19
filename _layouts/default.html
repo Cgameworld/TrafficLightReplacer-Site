@@ -9,17 +9,18 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
       
-    {% if site.google_analytics %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}',{'anonymize_ip': true});
-    </script>
-    {% endif %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XP9RVNWMXL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XP9RVNWMXL', {'anonymize_ip': true});
+</script>
     
-    
+
     {% if page.layout == 'home' %}
     <meta name="google-site-verification" content="eQ14pwLEDc8I6Gs16avi3d90zVjY5yWccx1Quzt1y74" />
     {% endif %}
