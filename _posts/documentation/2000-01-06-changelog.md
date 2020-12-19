@@ -6,6 +6,10 @@ category: documentation
 
 Public releases changelog:
 
+## 0.9.3
+- fix for oneway grass roads (opposite stop line)
+- improved pack detection
+
 ## 0.9.2
 - check if packs are installed on startup
 
