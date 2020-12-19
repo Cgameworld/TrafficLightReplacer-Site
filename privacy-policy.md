@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy-policy
+excerpt: "Your privacy is important to us. To better protect your privacy we provide this notice explaining our online information practices and the choices you can make about the way"
 ---
 
 

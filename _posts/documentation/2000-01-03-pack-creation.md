@@ -2,6 +2,7 @@
 layout: post
 title: Pack Creation
 category: documentation
+excerpt: "Information about how to make packs. Before creating a traffic light pack, traffic light props are needed. For general prop asset creation information"
 ---
 Information about how to make packs
 
@@ -22,9 +23,6 @@ If you already have working traffic light props skip to [here](/documentation/pa
 Traffic lights props use a special shader, the Traffic Light Shader. 
 
 Because of this it is best to use the vanilla traffic light template since it already has that configured
-
-unlike regular props, Traffic lights require _i maps???? explain when ive made one lol
-
 
 ## Preparation
 Before making a XML file, it is suggested to publish your traffic light props as an unlisted listing

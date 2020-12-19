@@ -2,6 +2,7 @@
 layout: post
 title: Main Window
 category: documentation
+excerpt: "Click on the traffic light edit icon to open, near the bottom corner of the screen. Main dropdown of the mod, this selects the traffic light pack to replace"
 ---
 
 ![mainwindow](/assets/images/Cities_HKHGiqZjNV.png)

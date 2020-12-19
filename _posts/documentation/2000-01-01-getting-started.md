@@ -2,9 +2,8 @@
 layout: post
 title: Getting Started
 category: documentation
+excerpt: "This mod allows for easy customization of your city's traffic lights. Installation: Subscribe to the mod on the Steam Workshop, Subscribe to supported"
 ---
-
-Beta version of my upcoming Traffic Light Replacer mod
 
 This mod allows for easy customization of your city's traffic lights. 
 

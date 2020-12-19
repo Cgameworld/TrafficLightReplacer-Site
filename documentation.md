@@ -6,7 +6,6 @@ permalink: /documentation
 ref: documentation
 order: 0
 ---
-descipt error
 {% for post in site.posts reversed %}
 {% if post.category == "documentation" %}
 <div class="item">

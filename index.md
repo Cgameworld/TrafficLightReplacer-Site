@@ -6,11 +6,13 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+excerpt: "Homepage for the Cities: Skylines mod, Traffic Light Replacer | View Documentation"
 ---
 
 <center style="margin-top:-30px">
 
 Coming Soon!
+<br>
 <br>
 <a href="/documentation" class="btn">Documentation</a>
 
