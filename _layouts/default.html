@@ -42,11 +42,19 @@
         href="{{ "/feed.xml" | absolute_url }}">
     {% endif %}
     <link rel="shortcut icon" href="{{ "/favicon.ico" | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#c4c4c4">
+    <meta name="msapplication-TileColor" content="#c4c4c4">
+    <meta name="theme-color" content="#ffffff">
+
     <meta name="robots" content="noarchive">
     <!-- <link rel="alternate" media="only screen and (max-width: 640px)" href="">
         <link rel="alternate" media="handheld" href=""> -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | absolute_url }}">
 </head>
+
 <body>
     {% include site-header.html %}
     {% if page.layout == 'home' %}
