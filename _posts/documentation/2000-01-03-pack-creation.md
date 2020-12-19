@@ -17,7 +17,6 @@ Information about how to make packs
 ## General
 Before creating a traffic light pack, traffic light props are needed. For general prop asset creation information refer to this [article on cslm](https://cslmodding.info/asset/prop/) 
 
-If you already have working traffic light props skip to [here](/documentation/pack-creation/#xml-types) ??
 ## Traffic Light Prop Specifics
 
 Traffic lights props use a special shader, the Traffic Light Shader. 
@@ -50,7 +49,7 @@ Example Blank XML Template:\
 
 For examples of fully working xml files, look at the mod's [internal XML presets](https://github.com/Cgameworld/TrafficLightReplacer/tree/master/TrafficLightReplacer/DefaultXMLS)
 
-Read below for the explaination of the elements
+Read below for the explanation of the elements
 
 # XML Elements
 
