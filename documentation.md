@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Documentation
+excerpt: Documentation for Traffic Light Replacer - Articles, Getting Started, Main Window, Settings, Pack Creation, Changelog
 permalink: /documentation
 ref: documentation
 order: 0
 ---
+descipt error
 {% for post in site.posts reversed %}
 {% if post.category == "documentation" %}
 <div class="item">

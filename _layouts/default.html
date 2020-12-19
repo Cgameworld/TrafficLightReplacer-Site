@@ -8,6 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}',{'anonymize_ip': true});
+    </script>
+    {% endif %}
+    
+    
     {% if page.layout == 'home' %}
     <meta name="google-site-verification" content="eQ14pwLEDc8I6Gs16avi3d90zVjY5yWccx1Quzt1y74" />
     {% endif %}
@@ -80,6 +92,7 @@
             
             <footer class="site-footer">
 
+                <div>
                 <a target="_blank" href="https://youtube.com/user/cgameworld" class="pure-button icon-button fa fa-youtube"></a>
                             <a target="_blank" href="https://steamcommunity.com/id/cgameworld/myworkshopfiles/" class="pure-button icon-button fa fa-steam"></a>
                             <a target="_blank" href="https://discordapp.com/invite/gmjmPsC" class="pure-button icon-button fa fa-discord"></a>
@@ -92,8 +105,12 @@
                                 class="pure-button icon-button button-large fa fa-envelope"
                                 onmouseover="this.href=this.href.replace('@@','.')"
                             ></a>
-                
-
+                        </div>
+                        <br>
+                        <div class="btm-rht-footer">
+<a alt="Sitemap" href="/sitemap.xml">Sitemap</a>
+<a alt="Privacy Policy" href="/privacy-policy">Privacy Policy</a>
+</div>
             </footer>
         </section>
         

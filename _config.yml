@@ -26,6 +26,7 @@ url: "https://tlr.cgameworld.com"
 theme: 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
   
 permalink: /:categories/:title/
