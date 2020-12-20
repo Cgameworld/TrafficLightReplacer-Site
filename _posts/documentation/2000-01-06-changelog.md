@@ -6,6 +6,9 @@ category: documentation
 
 Public releases changelog:
 
+## 0.9.4
+- added prop tester in pack creator helper
+
 ## 0.9.3
 - fix for oneway grass roads (opposite stop line)
 - improved pack detection
