@@ -123,7 +123,11 @@ Once enabled you should see a window that looks like this:
 This button exports two XML files, one for each configuration [type](/documentation/pack-creation/#xml-types)
 
 ## Update
-This copies the selected prop's name into the name box. Use the [Find It! 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2133885971) mod to search and to select a prop
+Copies the selected prop's name into the name box. Use the [Find It! 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2133885971) mod to search and to select a prop
+
+## Test
+
+Replaces all traffic light props with the prop name in the Name field
 
 ## Copy
 
