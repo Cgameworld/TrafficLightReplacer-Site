@@ -6,6 +6,10 @@ category: documentation
 
 Public releases changelog:
 
+# 0.9.5
+- fix for disappearing street light icon in Network Skins 2
+- fix for loaded customized Network Skins 2 roads not replacing some lights
+  
 ## 0.9.4
 - added prop tester in pack creator helper
 
@@ -17,7 +21,6 @@ Public releases changelog:
 - check if packs are installed on startup
 
 ## 0.9.1
-
 - Added 6 more built-in prop configurations
 - new setting: show signal pole style lights on default side
 
