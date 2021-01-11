@@ -6,6 +6,9 @@ category: documentation
 
 Public releases changelog:
 
+## 0.9.6
+- check for mismatched prop count
+  
 ## 0.9.5
 - fix for disappearing street light icon in Network Skins 2
 - fix for loaded customized Network Skins 2 roads not replacing some lights
