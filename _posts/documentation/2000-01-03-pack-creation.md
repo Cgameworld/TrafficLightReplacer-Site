@@ -155,7 +155,7 @@ file in workshop folder has to named TLRLocal.xml
 ```\AppData\Local\Colossal Order\Cities_Skylines\TLRLocal``` \
 can be named anything ("Load TLRLocal Folder" in the asset creator helper needs to be enabled)
 
-# Testing a Traffic Pack
+# Testing a Traffic Light Pack
 
 In the TLRLocal folder first complete setting up a XML config file,
 
