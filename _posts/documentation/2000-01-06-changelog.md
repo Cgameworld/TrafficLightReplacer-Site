@@ -6,6 +6,9 @@ category: documentation
 
 Public releases changelog:
 
+## 0.9.7
+- fix for t-intersection patch not applying when manually toggling traffic lights
+
 ## 0.9.6
 - check for mismatched prop count
   
