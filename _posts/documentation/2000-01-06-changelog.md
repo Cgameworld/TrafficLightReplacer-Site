@@ -6,6 +6,9 @@ category: documentation
 
 Public releases changelog:
 
+## 0.9.8
+- added new localization strings
+
 ## 0.9.7
 - fix for t-intersection patch not applying when manually toggling traffic lights
 
