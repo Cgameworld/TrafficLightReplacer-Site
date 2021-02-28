@@ -12,6 +12,10 @@ Information about how to make packs
 * TOC
 {:toc}
 
+# Video Resources
+
+Coming soon!
+
 # Props
 
 ## General
@@ -21,12 +25,7 @@ Before creating a traffic light pack, traffic light props are needed. For genera
 
 Traffic lights props use a special shader, the Traffic Light Shader. 
 
-Because of this it is best to use the vanilla traffic light template since it already has that configured
-
-## Preparation
-Before making a XML file, it is suggested to publish your traffic light props as an unlisted listing
-
-This is because the mod refers to the Prefab name of the prop, which differs whether the prop is published or not.
+Because of this it is best to use the vanilla traffic light template since it already has that configured.
 
 # XML Types
 
@@ -150,10 +149,10 @@ Refreshes the main Pack Dropdown
 The mod reads XML files from the following places:
 
 ```C:\Program Files (x86)\Steam\steamapps\workshop\content\255710``` (any enabled/subscribed subfolder) \
-file in workshop folder has to named TLRLocal.xml
+XML file in workshop folder has to named TLRLocal.xml
 
 ```\AppData\Local\Colossal Order\Cities_Skylines\TLRLocal``` \
-can be named anything ("Load TLRLocal Folder" in the asset creator helper needs to be enabled)
+XML file can be named anything ("Load TLRLocal Folder" in the asset creator helper also needs to be enabled)
 
 # Testing a Traffic Light Pack
 
@@ -168,9 +167,9 @@ Then test with various sized roads and see if it replaces well. One common thing
 
 # Publishing
 
-After making sure the XML file works, go to the Content Manager and update the existing prop pack. Then at the update popup open the asset staging folder and copy the XML from the TLRLocal Folder and rename it TLRConfig.xml.
+After making sure the XML file works, go to the Content Manager and update the existing prop pack. 
 
-add images!
+Then in the update popup open the asset staging folder and copy the XML from the TLRLocal Folder and rename it TLRConfig.xml.
 
 # Replacement Limitations
 
