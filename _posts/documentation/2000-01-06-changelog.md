@@ -6,7 +6,11 @@ category: documentation
 
 Public releases changelog:
 
-## 0.9.8
+## 0.9.8.1
+ - Chinese and German translations added
+ - USRP street light effects reenabled (NS2 mod updated)
+
+## 0.9.8.0
 - added new localization strings
 
 ## 0.9.7
