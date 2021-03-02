@@ -4,7 +4,7 @@ title: Pack Creation
 category: documentation
 excerpt: "Information about how to make packs. Before creating a traffic light pack, traffic light props are needed. For general prop asset creation information"
 ---
-Information about how to make packs
+Information about traffic light props and pack creation
 
 # Table of Contents
 {: .no_toc}
@@ -16,20 +16,54 @@ Information about how to make packs
 
 Coming soon!
 
-# Props
+# Traffic Light Props
+
+## Introduction
+Before creating a traffic light pack, traffic light props are needed. 
+
+If you already have props made [skip here](/documentation/pack-creation/#xml-types)
 
 ## General
-Before creating a traffic light pack, traffic light props are needed. For general prop asset creation information refer to this [article on cslm](https://cslmodding.info/asset/prop/) 
 
-## Traffic Light Prop Specifics
+For general prop asset creation information refer to this [article on cslm](https://cslmodding.info/asset/prop/) 
 
 Traffic lights props use a special shader, the Traffic Light Shader. 
 
 Because of this it is best to use the vanilla traffic light template since it already has that configured.
 
+## Texture Files
+
+Traffic light props map the color, alpha and illumination textures differently than regular props.
+
+In the example textures below, the left side shows the texture map saved to the import folder, while the right side shows which signal color corresponds to the monochrome colors in the saved texture.
+
+### Color
+
+The color map (_c.png) texture tells the game where to find the red and green lights
+
+<img src="/assets/images/texture-example/ctexture-s.png"/>
+
+### Alpha
+
+The alpha texture (_a.png) tells the game where to find the yellow lights
+
+<img src="/assets/images/texture-example/atexture-s.png"/>
+
+### Illumination
+
+The illumination texture (_i.png) tells the game where to find the pedestrian lights. 
+
+<img src="/assets/images/texture-example/itexture-s.png"/>
+
+## Prop Illumination Amount
+
+The background color of the three textures controls the illumination amount of the main signal model. The background color of the _c, _a and _i needs to be consistent, otherwise the illumination amount of the whole prop changes between different signal phases. 
+
+The background color needs to be close to medium gray ```rgb(128,128,128)```. Background colors too far away from this cause strange side effects in game.
+
 # XML Types
 
-This mod can read two different kinds of XML configuration files
+Traffic Light Replacer can read two different kinds of XML configuration files
 
 ## OneSize
 For traffic light packs that replace vanilla traffic light props one to one. This is best for legacy/limited prop packs
