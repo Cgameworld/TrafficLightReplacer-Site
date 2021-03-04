@@ -18,7 +18,7 @@ excerpt: "Homepage for the Cities: Skylines mod, Traffic Light Replacer | View D
 </div>
 
 <br>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2053924034" class="btn">Download on Steam</a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2414025775" class="btn">Download on Steam</a>
 <a href="/documentation" class="btn">Documentation</a>
 
 
