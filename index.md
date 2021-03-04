@@ -13,7 +13,7 @@ excerpt: "Homepage for the Cities: Skylines mod, Traffic Light Replacer | View D
 
 <div class="youtube-embed">
 <div class="video-wrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NLouT74E5cQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ViHMWe0-Gwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
