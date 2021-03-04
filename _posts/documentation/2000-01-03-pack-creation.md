@@ -14,7 +14,20 @@ Information about traffic light props and pack creation
 
 # Video Resources
 
-Coming soon!
+## How to Make Packs
+<div class="youtube-embed">
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uA-g_Rhqb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+## How to Make Traffic Light Props
+
+<div class="youtube-embed">
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EzlkQYnCU9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
 # Traffic Light Props
 
