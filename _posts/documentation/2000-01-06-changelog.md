@@ -6,11 +6,11 @@ category: documentation
 
 Public releases changelog:
 
-# 1.0
-Initial Release
+## 1.0
+ - Initial Release
 
-# 0.9.9.1
--added checking for internal blank prop
+## 0.9.9.1
+ - added checking for internal blank prop
 
 ## 0.9.9
  - Chinese and German translations added
