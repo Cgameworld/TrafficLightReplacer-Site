@@ -6,11 +6,17 @@ category: documentation
 
 Public releases changelog:
 
-## 0.9.8.1
+# 1.0
+Initial Release
+
+# 0.9.9.1
+-added checking for internal blank prop
+
+## 0.9.9
  - Chinese and German translations added
  - USRP street light effects reenabled (NS2 mod updated)
 
-## 0.9.8.0
+## 0.9.8
 - added new localization strings
 
 ## 0.9.7
