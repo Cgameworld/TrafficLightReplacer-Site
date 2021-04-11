@@ -14,6 +14,7 @@ There are many ways to support to this project
 If you have found a bug, document it preferably as a [issue](https://github.com/Cgameworld/TrafficLightReplacer/issues) on GitHub, with the steps leading up to the issue and with the output_log.txt file of your session. More information on how to get the output_log.txt file [here](https://steamcommunity.com/sharedfiles/filedetails/?id=463645931)
 
 # Translation
+
 This mod has localization support! Help translate it into your language with this [google sheet](https://docs.google.com/spreadsheets/d/1kWPPgooa0eKep2ELPwoYKz4qJjLCdzmWs8BDeXo5aL4/edit#gid=0)
 
 # Pull Requests
