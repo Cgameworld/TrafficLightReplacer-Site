@@ -196,7 +196,7 @@ Refreshes the main Pack Dropdown
 The mod reads XML files from the following places:
 
 ```C:\Program Files (x86)\Steam\steamapps\workshop\content\255710``` (any enabled/subscribed subfolder) \
-XML file in workshop folder has to named TLRLocal.xml
+XML file in workshop folder has to named TLRConfig.xml
 
 ```\AppData\Local\Colossal Order\Cities_Skylines\TLRLocal``` \
 XML file can be named anything ("Load TLRLocal Folder" in the asset creator helper also needs to be enabled)
