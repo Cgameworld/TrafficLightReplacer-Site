@@ -55,6 +55,7 @@ Built-in configurations currently exist for these prop pack/mods:
 |US Horizontal Traffic Lights| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=1108278552)| [Open in Steam](steam://url/CommunityFilePage/1108278552)|
 |USRP Traffic Signals| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=2084863228)| [Open in Steam](steam://url/CommunityFilePage/2084863228)|
 
+<br>
 Third party configurations currently exist for these prop packs:
 
 | Pack Name     | MultiSize? |     |     | 
