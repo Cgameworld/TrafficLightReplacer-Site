@@ -39,7 +39,9 @@ table th:nth-of-type(4) {
 }
 </style>
 
-| Pack Name     | Multisize? |     |     | 
+Built-in configurations currently exist for these prop pack/mods:
+
+| Pack Name     | MultiSize? |     |     | 
 | :---        |    :----:   |          ---: |          ---: |
 |American Traffic Lights| No | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=694123443)| [Open in Steam](steam://url/CommunityFilePage/694123443)|
 |BIG Urban Traffic Lights| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=2236570542)| [Open in Steam](steam://url/CommunityFilePage/2236570542)|
@@ -52,6 +54,14 @@ table th:nth-of-type(4) {
 |Taiwanese Traffic Lights| No | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=1251396095)| [Open in Steam](steam://url/CommunityFilePage/1251396095)|
 |US Horizontal Traffic Lights| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=1108278552)| [Open in Steam](steam://url/CommunityFilePage/1108278552)|
 |USRP Traffic Signals| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=2084863228)| [Open in Steam](steam://url/CommunityFilePage/2084863228)|
+
+Third party configurations currently exist for these prop packs:
+
+| Pack Name     | MultiSize? |     |     | 
+| :---        |    :----:   |          ---: |          ---: |
+|BIG Roads Alternative Traffic Lights Pack 2| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=2453806030)| [Open in Steam](steam://url/CommunityFilePage/2453806030)|
+|Tampa, FL Traffic Light Pack| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=2508374165)| [Open in Steam](steam://url/CommunityFilePage/2508374165)|
+|UK Road Sign & Street Furniture Pack| Yes | [View Listing](https://steamcommunity.com/sharedfiles/filedetails/?id=1293188397)| [Open in Steam](steam://url/CommunityFilePage/1293188397)|
 
 <br>
 Individual traffic light mods (ie. American Traffic Lights) need to be left disabled, otherwise conflicts will happen. The mod automatically disables individual traffic light mods on game startup since it only uses the bundled props.
