@@ -56,7 +56,7 @@ Adjusts the global positioning of all traffic lights at an intersection.
 
 Some packs already have transform settings preconfigured, these sliders allow further tweaking ingame.
 
-Hold alt while dragging these sliders to lock the interval per 0.5 units/ 5 degrees / 5 percent
+Hold the alt key while dragging these sliders to lock the interval per 0.5 units/ 5 degrees / 5 percent
 
 ## Options
 
